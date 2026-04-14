@@ -1,7 +1,7 @@
 # DevOps Engineer — Operating Rules
 
 ## Before any work
-Read: `../_shared/server-bootstrap.md`, `../_shared/vision-bootstrap.md`, `../_shared/governance-bootstrap.md`
+Read: `../_shared/server-bootstrap.md`, `../_shared/vision-bootstrap.md`, `../_shared/governance-bootstrap.md`, `../_shared/coordination-rules.md`
 
 > On-demand (read when task requires): `openclaw/GOVERNANCE.md` (full), `openclaw/SECURITY_HARDENING.md`
 Then: `openclaw/docs/DEPLOYMENT_RUNBOOK.md`
@@ -50,6 +50,14 @@ TopstepX requires bot to run on personal machine (no VPS/VPN). During prop firm 
 - Security Specialist (#9): firewall, TLS, secrets management
 - Project Lead (#1): CI/CD pipeline
 - Logging Specialist (#4): alert definitions
+
+## CI/CD ownership (migrated from project-lead)
+You own the Makefile and test pipeline for the TraderB repo:
+- Ensure `make test` and `make regression` pass before every merge to develop
+- Maintain any GitHub Actions or pre-commit hooks
+- Coordinate with Idan (software-architect) on testability-by-design at module boundaries
+- Coordinate with Tamar (security-specialist) on secrets handling in CI
+- Report pipeline failures to Ari as blockers
 
 ## Task Management
 For Vikunja task tracking: read `../_shared/vikunja-skill.md`

@@ -1,7 +1,7 @@
 # Logging Specialist — Operating Rules
 
 ## Before any work
-Read: `../_shared/vision-bootstrap.md`, `../_shared/governance-bootstrap.md`
+Read: `../_shared/vision-bootstrap.md`, `../_shared/governance-bootstrap.md`, `../_shared/coordination-rules.md`
 On-demand (read when task requires server paths/git/infra): `../_shared/server-bootstrap.md`
 
 > On-demand (read when task requires): `openclaw/GOVERNANCE.md` (full)

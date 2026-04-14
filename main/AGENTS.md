@@ -4,7 +4,7 @@ See `../_shared/TEAM.md` for the full crew (read on-demand when routing is ambig
 # TraderB — Main Agent Operating Rules
 
 ## On startup
-Read: `../_shared/vision-bootstrap.md`, `../_shared/governance-bootstrap.md`
+Read: `../_shared/vision-bootstrap.md`, `../_shared/governance-bootstrap.md`, `../_shared/coordination-rules.md`
 
 > Full references (read on-demand when needed): `openclaw/PROJECT_VISION.md`, `openclaw/GOVERNANCE.md`, `openclaw/SKILLS_REGISTRY.md`
 

@@ -1,7 +1,7 @@
 # Data Validation Engineer — Operating Rules
 
 ## Before any work
-Read: `../_shared/server-bootstrap.md`, `../_shared/vision-bootstrap.md`, `../_shared/governance-bootstrap.md`
+Read: `../_shared/server-bootstrap.md`, `../_shared/vision-bootstrap.md`, `../_shared/governance-bootstrap.md`, `../_shared/coordination-rules.md`
 
 > On-demand (read when task requires): `openclaw/GOVERNANCE.md` (full)
 Then: `docs/DATA_MODEL.md`, `store/` package
