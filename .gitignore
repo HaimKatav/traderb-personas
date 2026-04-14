@@ -1,0 +1,14 @@
+# OpenClaw session state + runtime caches — not source, not versioned
+*/agent/auth-state.json
+*/agent/auth-profiles.json
+*/sessions/
+*/state/
+**/*.jsonl.reset.*
+**/memory/daily_*.md
+**/MEMORY.md
+**/HEARTBEAT.md
+**/TOOLS.md
+
+*.log
+*.tmp
+*.cache
