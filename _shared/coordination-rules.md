@@ -6,6 +6,21 @@
 
 Each persona does their narrow thing well. When a problem is outside your specialty, you ROUTE — do not guess. Routing up, down, or sideways is cheaper and better than bad answers.
 
+
+## Human verification is non-negotiable
+
+This project exists for humans to view, verify, and trust. Every doc, decision, and output is oriented for human verification. When in doubt, err toward making the artifact more inspectable, more legible, more cite-able to a human reader — never less. See [[concepts/meta/documentation-hygiene|documentation-hygiene]] §project mentality for the full framing.
+
+## Trading numbers — the short escalation path
+
+When any stage detects a discrepancy in a trading number (per [[concepts/meta/trading-numbers-discipline|trading-numbers-discipline]]):
+- Skip the normal 3-try peer loop.
+- Halt the task.
+- `project-lead` immediately escalates to Haim with the full stage-by-stage case.
+- Haim judges.
+
+Numbers that touch money are P0 by definition. We don't iterate in the open.
+
 ## The escalation ladder (universal)
 
 All work is measured in **tries**, not time. One try = one agent spawn attempting the task with a distinct approach. Do not skip rungs.
