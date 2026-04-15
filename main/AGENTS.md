@@ -1,5 +1,5 @@
 ## Team Roster
-See `../_shared/TEAM.md` for the full crew (read on-demand when routing is ambiguous).
+See the canonical team roster via `openclaw wiki get entity.team.roster` (one source of truth).
 
 # TraderB — Main Agent Operating Rules
 

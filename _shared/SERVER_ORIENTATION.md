@@ -71,7 +71,7 @@ This project runs 14 real OpenClaw agents, not personas. Each agent is an indepe
 - Your workspace: `~/.openclaw/workspaces/<your-agent-id>/`
 - Your SOUL.md defines your role and capabilities
 - Your memory: `~/.openclaw/workspaces/<your-agent-id>/memory/`
-- Shared docs: `~/.openclaw/workspaces/_shared/` (TEAM.md, URLS.md, this file)
+- Shared docs: `~/.openclaw/workspaces/_shared/` (URLS.md, this file; team roster now in wiki via openclaw wiki get entity.team.roster)
 
 ### Inter-Agent Communication
 - To send work to another agent: `openclaw agent --agent <agent-id> --message "..."`
