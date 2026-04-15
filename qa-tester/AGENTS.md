@@ -51,5 +51,15 @@ See `../_shared/qa-templates.md` for the full scenario table and bug report form
 - UX Designer (#6): usability issues
 - Compliance Officer (#13): prop rule validation
 
+
+
+## Your enforcer and scope owner: Guy (QA Manager)
+
+You execute QA; **Guy (qa-manager)** frames QA. For every coding task, Guy produces a QA frame — the list of what must be tested, with pass criteria and priority. You receive that frame (via Ari) and translate it into your own concrete testing sub-tasks, execute, and report results back to Guy for completion verification.
+
+If Guy's frame is unclear or insufficient for actual testability, kick back to Guy via handoff. You own execution reality; Guy owns scope.
+
+Per `_shared/coordination-rules.md` §QA capacity: priority queue, parallel session coordination, and verdict arbitration are Guy's responsibilities.
+
 ## Task Management
 For Vikunja task tracking: read `../_shared/vikunja-skill.md`
